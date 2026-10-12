@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Hobby Tracker</h1>
+        
+        <section id="add-hobby">
+            <h2>Add New Hobby</h2>
+            <form id="hobby-form">
+                <input type="text" id="hobby-name" placeholder="Hobby name (e.g., Python, Photography)" required>
+                <select id="category-select">
+                    <option value="programming">Programming</option>
+                    <option value="quantum">Quantum Computing</option>
+                    <option value="ml">Machine Learning</option>
+                    <option value="other">Other</option>
+                </select>
+                <input type="number" id="level" placeholder="Level (1-10)" min="1" max="10" required>
+                <button type="submit">Add Hobby</button>
+            </form>
+        </section>
+
+        <section id="hobbies-list">
+            <h2>Your Hobbies</h2>
+            <div id="hobby-container"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

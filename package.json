@@ -1,0 +1,19 @@
+{
+  "name": "hobby-tracker-app",
+  "version": "1.0.0",
+  "description": "A simple hobby tracking web app to log your interests and progress",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -e \"console.log('Hobby Tracker App Ready! Open index.html in browser.')\""
+  },
+  "keywords": [
+    "hobby",
+    "tracker",
+    "web-app",
+    "javascript"
+  ],
+  "author": "Asad",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
